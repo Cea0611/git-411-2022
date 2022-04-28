@@ -25,3 +25,11 @@ Pasos para descargar cambios desde la rama remota:
 	-git fetch
 2.- Sincronizamos la rama local con los cambios en la rama remota
 	-git pull
+
+CREACION DE RAMAS
+Una rama es una subdivisón de otra rama a partir de cierto punto.
+
+1.- Crear la rama localmente
+	-git checkout -b "nombre-rama"
+2.- Subir la rama al repositorio en la nube
+	-git push --set-upstream origin "nombre-rama"
